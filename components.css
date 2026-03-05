@@ -1,4 +1,23 @@
 /*
 * Please Include component name before including the CSS
-
 */
+
+.row_cta-cards_2 .fl-row-content-wrap {
+  background-color: var(--light-color);
+  padding: var(--lg-padding_extra-bottom)!important;
+}
+
+.row_cta-cards_2 .fl-module-heading,
+.row_cta-cards_2 .fl-module-heading .fl-module-content {
+  margin-bottom: 0;
+}
+
+.row_about-us_1 .fl-row-content-wrap {
+  background-color: var(--light-color);
+  padding: var(--lg-padding)!important;
+}
+
+.row_about-us_1 .fl-module-rich-text .fl-module-content,
+.row_about-us_1 .fl-module-heading .fl-module-content {
+  margin-bottom: 0;
+}
