@@ -310,7 +310,8 @@ This is an example of how to add decorations to columns or other modules */
 }
 
 .dark-overlay-bg .fl-rich-text *,
-.dark-overlay-bg .fl-heading * {
+.dark-overlay-bg .fl-heading *,
+.dark-overlay-bg .fl-heading {
 	color: var(--light);
 }
 

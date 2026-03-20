@@ -49,7 +49,7 @@ https://noto.li/QTgich
 */
 
 .row_callout-cards_1 .fl-row-content-wrap {
-  box-shadow: var(--box-shadow) !important;
+  /*box-shadow: var(--box-shadow) !important;*/
   padding: var(--md-padding) !important;
 }
 
