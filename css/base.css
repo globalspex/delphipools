@@ -49,6 +49,18 @@ a {
 	background-color: var(--accent-color);
 }
 
+.fl-module-heading,
+.fl-module-rich-text {
+  margin-top: 10px!important;
+  margin-bottom: 10px !important;
+}
+
+.fl-module-rich-text .fl-module-content {
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+}
+
+
 .fl-rich-text a {
 	text-decoration: underline;
 	underline-text-position: under;
@@ -69,7 +81,7 @@ h2.fl-heading *,
 h3.fl-heading *,
 h4.fl-heading *,
 h5.fl-heading * {
-	color: var(--dark);
+	color: var(--tertiary-color);
 }
 
 .lg-heading,
@@ -166,6 +178,7 @@ footer .fl-icon-text * {
 }
 
 footer .fl-module-icon .fl-module-content {
+	margin-top: 10px;
 	margin-bottom: 0!important;
 }
 
