@@ -159,6 +159,7 @@ header .fl-button * {
 
 .fl-theme-builder-header-scrolled .fl-row-content-wrap {
 	box-shadow: var(--box-shadow);
+	background: var(--tertiary-color);
 }
 
 .top-header .fl-row-content-wrap {

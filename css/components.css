@@ -17,6 +17,7 @@ https://noto.li/QTgich
   width: 100% !important;
   object-fit: cover !important;
   border-radius: var(--default-border-radius) !important;
+  box-shadow: var(--box-shadow);
 }
 
 .row_services-content-grid_1 .pp-content-post .pp-post-image .pp-post-title {
@@ -620,4 +621,76 @@ https://noto.li/2ZxQvT */
 
 .row_location-list_map_1 .fl-icon {
   color: var(--accent-color)!important;
+}
+
+/* ------- COMPONENT: Content Row with Services 1
+---------- Notion: https://noto.li/8YBoyQ --------------------- */
+
+.content-row-with-services_1 .fl-row-content-wrap {
+   padding: var(--lg-padding);
+}
+
+.content-row-with-services_1 .fl-col:nth-child(2) h2.fl-heading *,
+.content-row-with-services_1 .fl-col:nth-child(2) h2.fl-heading {
+   font-weight: 600 !important;
+   text-transform: none !important;
+}
+
+.content-row-with-services_1 .fl-module-photo .fl-photo-content {
+   position: relative;
+   display: inline-block;
+   border-radius: 50%;
+   width: 80% !important;
+}
+
+.content-row-with-services_1 .fl-module-photo .fl-photo-content img {
+   border-radius: 50% !important;
+   display: block;
+   position: relative;
+   z-index: 1;
+   box-shadow: var(--box-shadow);
+}
+
+.content-row-with-services_1 .fl-module-photo .fl-photo-content::after {
+   content: '';
+   position: absolute;
+   top: -20px;
+   left: -20px;
+   right: -20px;
+   bottom: -20px;
+   border-radius: 50%;
+   background: var(--gradient-accent);
+   z-index: 0;
+}
+
+.content-row-with-services_1 .fl-module-heading,
+.content-row-with-services_1 .fl-module-heading .fl-module-content,
+.content-row-with-services_1 .fl-module-rich-text,
+.content-row-with-services_1 .fl-module-rich-text .fl-module-content {
+   margin-top: 10px !important;
+   margin-bottom: 0 !important;
+}
+
+.content-row-with-services_1 .pp-content-post {
+   background: var(--dark);
+   padding: 0 !important;
+   border-radius: var(--default-border-radius);
+   box-shadow: var(--box-shadow);
+}
+
+.content-row-with-services_1 .pp-content-post h3 {
+   color: var(--light) !important;
+   text-align: center;
+}
+
+.content-row-with-services_1 .pp-content-body {
+   background: var(--dark) !important;
+}
+
+.content-row-with-services_1 .fl-button {
+   background: var(--accent-color) !important;
+}
+
+.content-row-with-services_1 .fl-button * {
+   color: var(--light) !important;
 }
