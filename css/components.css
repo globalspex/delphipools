@@ -694,3 +694,75 @@ https://noto.li/2ZxQvT */
 .content-row-with-services_1 .fl-button * {
    color: var(--light) !important;
 }
+
+/* ------- COMPONENT: Content Row with Services 2
+---------- Notion:  --------------------- */
+
+.content-row-with-services_2 .fl-row-content-wrap {
+   padding: var(--lg-padding);
+}
+
+.content-row-with-services_2 .fl-col:nth-child(2) h2.fl-heading *,
+.content-row-with-services_2 .fl-col:nth-child(2) h2.fl-heading {
+   font-weight: 600 !important;
+   text-transform: none !important;
+}
+
+.content-row-with-services_2 .fl-module-photo .fl-photo-content {
+   position: relative;
+   display: inline-block;
+   border-radius: 10px;
+   width: 100% !important;
+}
+
+.content-row-with-services_2 .fl-module-photo .fl-photo-content img {
+   border-radius: 10px !important;
+   display: block;
+   position: relative;
+   z-index: 1;
+   box-shadow: var(--box-shadow);
+}
+
+.content-row-with-services_2 .fl-module-photo .fl-photo-content::after {
+   content: '';
+   position: absolute;
+   top: -20px;
+   left: -20px;
+   right: -20px;
+   bottom: -20px;
+   border-radius: 10px;
+   background: var(--gradient-accent);
+   z-index: 0;
+}
+
+.content-row-with-services_2 .fl-module-heading,
+.content-row-with-services_2 .fl-module-heading .fl-module-content,
+.content-row-with-services_2 .fl-module-rich-text,
+.content-row-with-services_2 .fl-module-rich-text .fl-module-content {
+   margin-top: 10px !important;
+   margin-bottom: 0 !important;
+}
+
+.content-row-with-services_2 .pp-content-post {
+   background: var(--dark);
+   padding: 0 !important;
+   border-radius: var(--default-border-radius);
+   box-shadow: var(--box-shadow);
+}
+
+.content-row-with-services_2 .pp-content-post h3 {
+   color: var(--light) !important;
+   text-align: center;
+}
+
+.content-row-with-services_2 .pp-content-body {
+   background: var(--dark) !important;
+}
+
+.content-row-with-services_2 .fl-button {
+   background: var(--accent-color) !important;
+}
+
+.content-row-with-services_2 .fl-button * {
+   color: var(--light) !important;
+}

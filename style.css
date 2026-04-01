@@ -336,6 +336,15 @@ header .fl-row-content-wrap {
   /* border: 8px solid var(--accent-color); */
 }
 
+.border-image-landscape img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 2 / 1;
+  border-radius: 50%;
+  /* border: 8px solid var(--accent-color); */
+}
+
 /* ── LIGHT BACKGROUND SECTION ── */
 
 .light-background .fl-row-content-wrap{
