@@ -21,3 +21,23 @@
 .row_about-us_1 .fl-module-heading .fl-module-content {
   margin-bottom: 0;
 }
+
+
+.row_cta-cards_3 .fl-row-content-wrap {
+  background-color: var(--light);
+  padding: var(--lg-padding)!important;
+}
+
+.row_cta-cards_3 .fl-callout {
+  background-color: var(--accent-color);
+}
+
+.row_cta-cards_3 .fl-callout-title {
+  font-size: 20px!important;
+  color: var(--secondary-color)!important;
+  text-align: center!important;
+}
+
+.row_cta-cards_3 .fl-callout-text {
+  text-align: center!important;
+}

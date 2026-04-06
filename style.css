@@ -703,3 +703,13 @@ header .fl-row-content-wrap {
    background: var(--gradient-accent);
    z-index: -1;
 }
+
+.strong-text {
+  font-weight: 700;
+  color: var(--dark)!important;
+  font-size: 18px;
+}
+
+.strong-text strong {
+  color: var(--accent-color)!important;
+}
