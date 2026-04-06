@@ -121,6 +121,16 @@ header .fl-row-content-wrap {
   box-shadow: none;
 }
 
+header .fl-row-content-wrap {
+  padding: 0 20px;
+  position: relative!important;
+  z-index: 999!important;
+}
+
+.fl-editor header .fl-row-content-wrap {
+  z-index: unset!important;
+}
+
 /* Accent no scroll */
 
 .fl-theme-builder-header {
@@ -461,7 +471,7 @@ header .fl-row-content-wrap {
   padding: 50px 50px !important;
   position: relative !important;
   overflow: hidden !important;
-  z-index: 100;
+  z-index: 90;
 }
 
 .negative-col .fl-col-content {
@@ -588,10 +598,6 @@ header .fl-row-content-wrap {
 
   .pp-advanced-menu a {
     color: var(--light)!important;
-  }
-
-  header .fl-row-content-wrap {
-    padding: 0 20px;
   }
 
   header .fl-module-button {
